@@ -3,6 +3,69 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+
+## [0.10.8](https://github.com/vuestorefront/storefront-ui/compare/@storefront-ui/shared@0.10.7...@storefront-ui/shared@0.10.8) (2021-07-05)
+
+
+### Bug Fixes
+
+* conflict resolved ([c15c393](https://github.com/vuestorefront/storefront-ui/commit/c15c393b714b02f617a3c9ab7825282e41ba32db))
+* conflict resolved ([fb0ca6b](https://github.com/vuestorefront/storefront-ui/commit/fb0ca6b866f8a52962cb91b7e02df00592fb89c9))
+* multilined text aligned to left ([fc3f8da](https://github.com/vuestorefront/storefront-ui/commit/fc3f8da2459bd37a6181b44eda787ee334f68ee6))
+* removed background css vars ([bb845e8](https://github.com/vuestorefront/storefront-ui/commit/bb845e81d5fb44d7d7bd49c16dce5bf1c6538fb6))
+
+
+## [0.10.71](https://github.com/vuestorefront/storefront-ui/compare/@storefront-ui/shared@0.10.7...@storefront-ui/shared@0.10.71) (2021-06-24)
+
+**Note:** Version bump only for package @storefront-ui/shared
+
+
+
+
+
+## [0.10.7](https://github.com/vuestorefront/storefront-ui/compare/@storefront-ui/shared@0.10.6...@storefront-ui/shared@0.10.7) (2021-06-22)
+
+
+### Bug Fixes
+
+* [#1796](https://github.com/vuestorefront/storefront-ui/issues/1796) add text-aling left to accordion header ([96e552e](https://github.com/vuestorefront/storefront-ui/commit/96e552e401e4474343d92a57996b599e602a2c65))
+* sfrange after CR ([31d9c66](https://github.com/vuestorefront/storefront-ui/commit/31d9c66c1cfb03f9f007d093775e2368f935c0da))
+
+
+### Features
+
+*  sfsidebar without js ([#1825](https://github.com/vuestorefront/storefront-ui/issues/1825)) ([cc06ba7](https://github.com/vuestorefront/storefront-ui/commit/cc06ba73aea5c8e355e821a305bf24677b9ef768))
+* add new range component, new lib and add to form example ([fb98400](https://github.com/vuestorefront/storefront-ui/commit/fb98400a643af1de3926f40c5b2135fa75dfb921))
+* revoke modal and sidebar ([e3e5fa6](https://github.com/vuestorefront/storefront-ui/commit/e3e5fa61e5379c0a88f27f17c32ecdf44cb06e2b))
+* SfModal without js ([#1817](https://github.com/vuestorefront/storefront-ui/issues/1817)) ([9c04310](https://github.com/vuestorefront/storefront-ui/commit/9c043103698ebbb9a5533084696bf1ba4b698a34))
+
+
+
+
+
+## [0.10.6](https://github.com/vuestorefront/storefront-ui/compare/@storefront-ui/shared@0.10.5...@storefront-ui/shared@0.10.6) (2021-05-18)
+
+
+### Bug Fixes
+
+* remove css vars for background img ([a003b9e](https://github.com/vuestorefront/storefront-ui/commit/a003b9ec51524c49c8f53deb3a4c45ac1d9c1168))
+
+
+### Features
+
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) add styling for scrollbar ([fe1026c](https://github.com/vuestorefront/storefront-ui/commit/fe1026c498d9af44d5bf95a2e2bb40752e97f6d2))
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) fix SfScrollable and SfTabs ([06accc5](https://github.com/vuestorefront/storefront-ui/commit/06accc53b96f118d1c85e2c168ded66932c8b1d8))
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) make scrollbar thinner ([0cda21a](https://github.com/vuestorefront/storefront-ui/commit/0cda21a294f7c0b46224262312d13fcb6a233de5))
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) remove simplebar-vue from SfScrollabe ([71286fc](https://github.com/vuestorefront/storefront-ui/commit/71286fc3fa7ec8421577665abd4531aef0c3b641))
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) remove unnecessary scrollbar styling ([dcba903](https://github.com/vuestorefront/storefront-ui/commit/dcba90323eac32f587b499885b86bbdc13017746))
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) remove unused code ([85e2e5c](https://github.com/vuestorefront/storefront-ui/commit/85e2e5c07ea74b7715997dc93fd43aada6350a38))
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) revoke simplebar library due to issues with overflow ([8e3eacd](https://github.com/vuestorefront/storefront-ui/commit/8e3eacdffbda96e3377aaa02d328fdd4704dd7cd))
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) use variables for static values ([f8f30dc](https://github.com/vuestorefront/storefront-ui/commit/f8f30dcb4f794c7ea29a00961d5b2c14dd82855e))
+
+
+
+
+
 ## [0.10.5](https://github.com/vuestorefront/storefront-ui/compare/@storefront-ui/shared@0.10.4...@storefront-ui/shared@0.10.5) (2021-04-19)
 
 

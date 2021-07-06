@@ -1,5 +1,5 @@
 <template>
-  <div class="sf-product-card">
+  <div class="sf-product-card" data-testid="product-card">
     <div class="sf-product-card__image-wrapper">
       <slot
         name="image"
@@ -8,6 +8,7 @@
         <SfButton
           :link="link"
           class="sf-button--pure sf-product-card__link"
+          data-testid="product-link"
           v-on="$listeners"
         >
           <template v-if="Array.isArray(image)">
@@ -31,6 +32,24 @@
           />
         </SfButton>
       </slot>
+      <slot name="colors" v-bind="{ colors }">
+        <SfColorPicker
+          v-if="colors.length"
+          class="sf-product-card__colors"
+          label="Choose color"
+          :is-open="!isMobile || openColorPicker"
+          @click:toggle="toggleColorPicker"
+        >
+          <SfColor
+            v-for="(color, i) in colors"
+            :key="color.value"
+            :color="color.color"
+            :selected="color.selected"
+            class="sf-product-card__color"
+            @click="handleSelectedColor(i)"
+          />
+        </SfColorPicker>
+      </slot>
       <slot name="badge" v-bind="{ badgeLabel, badgeColor }">
         <SfBadge
           v-if="badgeLabel"
@@ -43,6 +62,7 @@
         v-if="wishlistIcon !== false"
         :aria-label="`${ariaLabel} ${title}`"
         :class="wishlistIconClasses"
+        data-testid="product-wishlist-button"
         @click="toggleIsInWishlist"
       >
         <slot name="wishlist-icon" v-bind="{ currentWishlistIcon }">
@@ -68,6 +88,7 @@
             :aria-label="`Add to Cart ${title}`"
             :has-badge="showAddedToCartBadge"
             :disabled="addToCartDisabled"
+            data-testid="product-add-icon"
             @click="onAddToCart"
           >
             <div class="sf-product-card__add-button--icons">
@@ -104,6 +125,7 @@
       <SfButton
         :link="link"
         class="sf-button--pure sf-product-card__link"
+        data-testid="product-link"
         v-on="$listeners"
       >
         <h3 class="sf-product-card__title">
@@ -133,6 +155,7 @@
           v-if="reviewsCount"
           :aria-label="`Read ${reviewsCount} reviews about ${title}`"
           class="sf-button--pure sf-product-card__reviews-count"
+          data-testid="product-review-button"
           @click="$emit('click:reviews')"
         >
           ({{ reviewsCount }})
@@ -150,6 +173,13 @@ import SfImage from "../../atoms/SfImage/SfImage.vue";
 import SfCircleIcon from "../../atoms/SfCircleIcon/SfCircleIcon.vue";
 import SfBadge from "../../atoms/SfBadge/SfBadge.vue";
 import SfButton from "../../atoms/SfButton/SfButton.vue";
+import SfColorPicker from "../../molecules/SfColorPicker/SfColorPicker.vue";
+import SfColor from "../../atoms/SfColor/SfColor.vue";
+import {
+  mapMobileObserver,
+  unMapMobileObserver,
+} from "../../../utilities/mobile-observer";
+
 export default {
   name: "SfProductCard",
   components: {
@@ -160,6 +190,8 @@ export default {
     SfCircleIcon,
     SfBadge,
     SfButton,
+    SfColorPicker,
+    SfColor,
   },
   props: {
     /**
@@ -199,6 +231,14 @@ export default {
     badgeColor: {
       type: String,
       default: "",
+    },
+    /**
+     * Product colors
+     * It should be an array of objects
+     */
+    colors: {
+      type: Array,
+      default: () => [],
     },
     /**
      * Product title
@@ -307,9 +347,11 @@ export default {
   data() {
     return {
       isAddingToCart: false,
+      openColorPicker: false,
     };
   },
   computed: {
+    ...mapMobileObserver(),
     isSFColors() {
       return SF_COLORS.includes(this.badgeColor.trim());
     },
@@ -330,7 +372,22 @@ export default {
       return `${defaultClass} ${this.isInWishlist ? "on-wishlist" : ""}`;
     },
   },
+  beforeDestroy() {
+    unMapMobileObserver();
+  },
   methods: {
+    handleSelectedColor(colorIndex) {
+      if (this.colors.length > 0) {
+        this.colors.map((color, i) => {
+          if (colorIndex === i) {
+            this.$emit("click:colors", color);
+          }
+        });
+      }
+    },
+    toggleColorPicker() {
+      this.openColorPicker = !this.openColorPicker;
+    },
     toggleIsInWishlist() {
       this.$emit("click:wishlist", !this.isInWishlist);
     },

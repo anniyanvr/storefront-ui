@@ -28,6 +28,7 @@
           class="sf-button--pure sf-modal__close desktop-only"
           aria-label="Close modal"
           type="button"
+          data-testid="close-button"
           @click="close"
         >
           <!--@slot Use this slot to place content inside the close button.-->
@@ -138,6 +139,9 @@ export default {
       },
       immediate: true,
     },
+  },
+  beforeDestroy() {
+    clearAllBodyScrollLocks();
   },
   methods: {
     close() {

@@ -3,6 +3,151 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+
+## [0.10.8](https://github.com/vuestorefront/storefront-ui/compare/@storefront-ui/vue@0.10.7...@storefront-ui/vue@0.10.8) (2021-07-05)
+
+
+### Bug Fixes
+
+* [#1808](https://github.com/vuestorefront/storefront-ui/issues/1808) move cypress to dev dependencies ([a99d289](https://github.com/vuestorefront/storefront-ui/commit/a99d2892239ba0bd45286fca99e7ff44e3ea62dc))
+* [#1808](https://github.com/vuestorefront/storefront-ui/issues/1808) replace node-sass with sass ([9b683d0](https://github.com/vuestorefront/storefront-ui/commit/9b683d0bfdbce3862a9f719741f21fda1d6d0f29))
+* [#1808](https://github.com/vuestorefront/storefront-ui/issues/1808) update changelog ([f0ddfaa](https://github.com/vuestorefront/storefront-ui/commit/f0ddfaa3bdf7c1240352cad34a3aa7d7470a4980))
+* [#1883](https://github.com/vuestorefront/storefront-ui/issues/1883) revert SfLink to stateful ([bf59c75](https://github.com/vuestorefront/storefront-ui/commit/bf59c751da77ea9d7864dffbbfdb159319091c68))
+* [#1883](https://github.com/vuestorefront/storefront-ui/issues/1883) update changelog ([70c4349](https://github.com/vuestorefront/storefront-ui/commit/70c4349e95f62da7433b027abb6a410208cff487))
+* changed SfComponentSelect long-list story ([af871be](https://github.com/vuestorefront/storefront-ui/commit/af871be62410446030a1e8259bb4b4ada8068e82))
+* conflict resolved ([8352e56](https://github.com/vuestorefront/storefront-ui/commit/8352e560f145b6ac5ca5207627806b3320bc96bb))
+* conflict resolved ([023ccd6](https://github.com/vuestorefront/storefront-ui/commit/023ccd6fc753d9ed263292cf2e76a9425be2da69))
+* conflict resolved ([c08f6bb](https://github.com/vuestorefront/storefront-ui/commit/c08f6bb5189039ee89b343402f017dd3be4064a7))
+* conflict resolved ([c15c393](https://github.com/vuestorefront/storefront-ui/commit/c15c393b714b02f617a3c9ab7825282e41ba32db))
+* conflict resolved ([2f93e90](https://github.com/vuestorefront/storefront-ui/commit/2f93e90f142b649cdb64515d292d260e440443f7))
+* conflict resolved ([95855bd](https://github.com/vuestorefront/storefront-ui/commit/95855bd69d454644fe5c112340d8aeff153d43ac))
+* conflict resolved ([b4fef14](https://github.com/vuestorefront/storefront-ui/commit/b4fef14b6912c0e46d3271d270a263e74567f0fa))
+* conflict resolved ([4b2fe00](https://github.com/vuestorefront/storefront-ui/commit/4b2fe002dbca2daa82198c4b1b7b28537144e486))
+* conflict resolved ([01c9783](https://github.com/vuestorefront/storefront-ui/commit/01c9783a1add7fb3be6ba22a61d74e9e7c67dbec))
+* conflict resolved ([fb0ca6b](https://github.com/vuestorefront/storefront-ui/commit/fb0ca6b866f8a52962cb91b7e02df00592fb89c9))
+* cr fixes ([5f7b65e](https://github.com/vuestorefront/storefront-ui/commit/5f7b65e8e1465c7200293e202333c7e500b81552))
+* cr fixes ([a861b20](https://github.com/vuestorefront/storefront-ui/commit/a861b20b58ee48dfead176643b5870376a4b55a4))
+* cr fixes ([e653821](https://github.com/vuestorefront/storefront-ui/commit/e65382157686287ff8dd2fc70f0a6b9dbc5ded35))
+* cr fixes ([21673a5](https://github.com/vuestorefront/storefront-ui/commit/21673a54a76c7cc3561f24492aba39b4c0ec3516))
+* cr fixes ([b92aadf](https://github.com/vuestorefront/storefront-ui/commit/b92aadf67b5e5b60c3bf5f63e7db19d7ca78913b))
+* favicon for docs ([5d7a473](https://github.com/vuestorefront/storefront-ui/commit/5d7a47331d460f7b1c764246266552573de0ede7))
+* improved table ([924d19c](https://github.com/vuestorefront/storefront-ui/commit/924d19cda029283c7115b210863bd3fdd3b69eb9))
+* improved table ([6491dad](https://github.com/vuestorefront/storefront-ui/commit/6491dadbed202b88d76358ab270d251a76820797))
+* multilined text aligned to left ([fc3f8da](https://github.com/vuestorefront/storefront-ui/commit/fc3f8da2459bd37a6181b44eda787ee334f68ee6))
+* removed background css vars ([bb845e8](https://github.com/vuestorefront/storefront-ui/commit/bb845e81d5fb44d7d7bd49c16dce5bf1c6538fb6))
+* respect size of options list set as a prop on SfComponentSelect ([d10f8ce](https://github.com/vuestorefront/storefront-ui/commit/d10f8ce2492230a5602daea913233d768c48ec54))
+* scroll after sidebar and modal ([9d38f79](https://github.com/vuestorefront/storefront-ui/commit/9d38f799af659b3088484058e84ae693ae881aac))
+* scroll fixed ([46ab360](https://github.com/vuestorefront/storefront-ui/commit/46ab36095776ce5e4c3a2c47f1f41e9b3b992b71))
+* source code for stories and docs for modal ([e616d27](https://github.com/vuestorefront/storefront-ui/commit/e616d27ed21aa419bd6449e27eeaa5ed72bfc3f3))
+* ssr missmatch ([4e2c184](https://github.com/vuestorefront/storefront-ui/commit/4e2c184e7512e80afe2d6e934c1fb5b9f52fd087))
+* update changelog ([4455052](https://github.com/vuestorefront/storefront-ui/commit/44550522bc5546a23561622491f8f6034bb4fcbe))
+* width and heigth for logo and flag ([6ba34f2](https://github.com/vuestorefront/storefront-ui/commit/6ba34f24eb119cd563520eeef7d4beb3286107e7))
+
+
+## [0.10.71](https://github.com/vuestorefront/storefront-ui/compare/@storefront-ui/vue@0.10.7...@storefront-ui/vue@0.10.71) (2021-06-24)
+
+
+### Bug Fixes
+
+* hotfix sidebar not working on mobile ([d6d4a7c](https://github.com/vuestorefront/storefront-ui/commit/d6d4a7c707dc9a053a5671b66eae6f73ad85c7ce))
+* stories for 0.10.71 ([70fc8af](https://github.com/vuestorefront/storefront-ui/commit/70fc8af6893716885cbfc1b77f0729151008f3ee))
+
+
+## [0.10.7](https://github.com/vuestorefront/storefront-ui/compare/@storefront-ui/vue@0.10.6...@storefront-ui/vue@0.10.7) (2021-06-22)
+
+
+### Bug Fixes
+
+* [#1796](https://github.com/vuestorefront/storefront-ui/issues/1796) update changelog ([fef37f4](https://github.com/vuestorefront/storefront-ui/commit/fef37f44a318114e84c9d38d41898a20955c23a5))
+* after CR ([0969f36](https://github.com/vuestorefront/storefront-ui/commit/0969f36b4d8dd3e1a7df9b2bf7dffd8b47d2caa3))
+* after CR ([b0bf7b6](https://github.com/vuestorefront/storefront-ui/commit/b0bf7b6f78e26506d6e80bb3bc451c0aadbf4dff))
+* after CR ([6bd0238](https://github.com/vuestorefront/storefront-ui/commit/6bd023880974ebca1bdfefbb3f43a49781a848c0))
+* after CR fixes in sfbullets  story ([24dffb8](https://github.com/vuestorefront/storefront-ui/commit/24dffb874d4c84fc635bc0f4943628a0b5aee888))
+* blink effect on modal refresh ([#1845](https://github.com/vuestorefront/storefront-ui/issues/1845)) ([f5afeea](https://github.com/vuestorefront/storefront-ui/commit/f5afeea3f5ef00e3641f343d8953a8022eec1f7b))
+* conflict resolved ([5d6ebc0](https://github.com/vuestorefront/storefront-ui/commit/5d6ebc0fb25990667757d4cb48eef68eb71fd0ce))
+* mounted hook added ([6945604](https://github.com/vuestorefront/storefront-ui/commit/6945604e3131d34be953756d0e255297c80cd95a))
+* sfproductcard test ([2ffbcb1](https://github.com/vuestorefront/storefront-ui/commit/2ffbcb1d111e1b14fa55e5eecb1a895e69008250))
+* sfproductcard tests ([f88c8c9](https://github.com/vuestorefront/storefront-ui/commit/f88c8c9a4a77ba9d0880b8f598d324260d1437e2))
+* sfrange after CR ([31d9c66](https://github.com/vuestorefront/storefront-ui/commit/31d9c66c1cfb03f9f007d093775e2368f935c0da))
+* sfrange fixed ([aedc19e](https://github.com/vuestorefront/storefront-ui/commit/aedc19e15538ddd1cc06f9db1858c41332820b56))
+* try to fix gh actions workflow ([a81fa91](https://github.com/vuestorefront/storefront-ui/commit/a81fa91f2e3a97ebd0d826fba45e09d3270b410f))
+* typo in docs and gh actions workflow ([dbd0b50](https://github.com/vuestorefront/storefront-ui/commit/dbd0b50b2c57744c3774b5d65a6c90fb36c34323))
+* update dependecies, fix tests and nouislider import ([#1840](https://github.com/vuestorefront/storefront-ui/issues/1840)) ([4f6157d](https://github.com/vuestorefront/storefront-ui/commit/4f6157d6ebc2c9e8a45509cdb29c63e582cea042))
+* update dependecies, fix tests and nouislider import ([#1840](https://github.com/vuestorefront/storefront-ui/issues/1840)) ([7b28ec4](https://github.com/vuestorefront/storefront-ui/commit/7b28ec4bc52152c30a8a752f4de14fa6f82bf396))
+
+
+### Features
+
+*  sfsidebar without js ([#1825](https://github.com/vuestorefront/storefront-ui/issues/1825)) ([cc06ba7](https://github.com/vuestorefront/storefront-ui/commit/cc06ba73aea5c8e355e821a305bf24677b9ef768))
+* add cart, category and product pages, fix package json ([c941ba4](https://github.com/vuestorefront/storefront-ui/commit/c941ba4b3e754790121172e85a2e4266d204b611))
+* add data.attrs and refactor textarea ([636868a](https://github.com/vuestorefront/storefront-ui/commit/636868afb5927ee6ec665fe0c31b78975edc8e26))
+* add docs, fix sfcolor, remove console.log ([9004d14](https://github.com/vuestorefront/storefront-ui/commit/9004d14a626ed6099e26a7792e1ba38322d87bb8))
+* add lighthouse config ([00bd4b8](https://github.com/vuestorefront/storefront-ui/commit/00bd4b8a7e6f888479224bad7b57924e10572a56))
+* add new range component, new lib and add to form example ([fb98400](https://github.com/vuestorefront/storefront-ui/commit/fb98400a643af1de3926f40c5b2135fa75dfb921))
+* finish refactor of quantity selector and textarea ([4ef3873](https://github.com/vuestorefront/storefront-ui/commit/4ef38730b8b74d87b384675f55b1473935bc7106))
+* fix button and link and quantity selector refactor ([f97ca49](https://github.com/vuestorefront/storefront-ui/commit/f97ca497235b5ceee57152e646c35415d0df6440))
+* fix textarea and rating components ([a1c6ced](https://github.com/vuestorefront/storefront-ui/commit/a1c6cedb039b48400415437c579018f19a7a1619))
+* fixes in icon, link and tests ([b3a347c](https://github.com/vuestorefront/storefront-ui/commit/b3a347c62a36620c8f26c8731ac2a1f595c7612c))
+* icon remove unnecessary code, fix quantity selector ([609634a](https://github.com/vuestorefront/storefront-ui/commit/609634a5488daf8cb6a84944a7b6ead55b50f4b0))
+* rating and button refactor ([d53b270](https://github.com/vuestorefront/storefront-ui/commit/d53b2705b1b7d4ed592a428a445ddfd54cbe7f68))
+* refactor component to functional ([3e33003](https://github.com/vuestorefront/storefront-ui/commit/3e330037beabdc5e3d0bc48e42a547522be60316))
+* refactor link and button components ([253a30f](https://github.com/vuestorefront/storefront-ui/commit/253a30f9944b58d39893ff6d4a20e492466a9477))
+* refactor sficon and fix textarea ([3d0f713](https://github.com/vuestorefront/storefront-ui/commit/3d0f7135a21862652ee55523ba4d9d833a4bcae4))
+* remove failing step from cypress happy path ([c39d1fc](https://github.com/vuestorefront/storefront-ui/commit/c39d1fce6839273709c90d27df102214be2253e2))
+* revoke modal and sidebar ([e3e5fa6](https://github.com/vuestorefront/storefront-ui/commit/e3e5fa61e5379c0a88f27f17c32ecdf44cb06e2b))
+* setup nuxt package ([0cdf8db](https://github.com/vuestorefront/storefront-ui/commit/0cdf8dbaa46252cc7b91aa26ebcf23fd130a9dcf))
+* SfModal without js ([#1817](https://github.com/vuestorefront/storefront-ui/issues/1817)) ([9c04310](https://github.com/vuestorefront/storefront-ui/commit/9c043103698ebbb9a5533084696bf1ba4b698a34))
+
+
+
+
+
+## [0.10.6](https://github.com/vuestorefront/storefront-ui/compare/@storefront-ui/vue@0.10.5...@storefront-ui/vue@0.10.6) (2021-05-18)
+
+
+### Bug Fixes
+
+* after CR remove vue-loader dependency ([3559d0a](https://github.com/vuestorefront/storefront-ui/commit/3559d0a7fdfbdf8d00fc30cd949024721bf4593b))
+* all tests work after CR ([6115bdc](https://github.com/vuestorefront/storefront-ui/commit/6115bdcc5abf369de34f42ebe6bb426db32e9b55))
+* all unit test warnings fix ([574d0cf](https://github.com/vuestorefront/storefront-ui/commit/574d0cf67b364693bb6b0b193dfc2a2c1a6020d1))
+* change deprecated methods in tests ([202c98c](https://github.com/vuestorefront/storefront-ui/commit/202c98c1fc67bcd8afbdd58645cad368a028fa81))
+* conflict resolved ([69592a2](https://github.com/vuestorefront/storefront-ui/commit/69592a241a4d063b938bc829411a99070631ed7c))
+* remove css vars for background img ([a003b9e](https://github.com/vuestorefront/storefront-ui/commit/a003b9ec51524c49c8f53deb3a4c45ac1d9c1168))
+* tab test ([cf3f1a6](https://github.com/vuestorefront/storefront-ui/commit/cf3f1a62f050e580eff9023769af4407d332c022))
+* unit test warnings ([60e92bf](https://github.com/vuestorefront/storefront-ui/commit/60e92bfd594d52ba7907c0a69e9bad60b38519c0))
+
+
+### Features
+
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) add vue dependency ([ba5343f](https://github.com/vuestorefront/storefront-ui/commit/ba5343fa1326d8d9ab89d3a0782e21e3c03dc36b))
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) remove axios ([4def9af](https://github.com/vuestorefront/storefront-ui/commit/4def9afaacdd6082ce3d30619c5cd48acf861a83))
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) remove commented code ([2719590](https://github.com/vuestorefront/storefront-ui/commit/27195906dffdade17ecec7550a0b3d868cce1c0c))
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) remove simplebar-vue from SfScrollabe ([71286fc](https://github.com/vuestorefront/storefront-ui/commit/71286fc3fa7ec8421577665abd4531aef0c3b641))
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) remove unused code ([85e2e5c](https://github.com/vuestorefront/storefront-ui/commit/85e2e5c07ea74b7715997dc93fd43aada6350a38))
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) remove vue-fragment ([77663c5](https://github.com/vuestorefront/storefront-ui/commit/77663c51823356eff808098d974e7f46506c9b49))
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) remove vuepress and vue-drag-drop ([c3080ab](https://github.com/vuestorefront/storefront-ui/commit/c3080ab821edcda66b9cb85c704d53b4a64b03f6))
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) revoke simplebar library due to issues with overflow ([8e3eacd](https://github.com/vuestorefront/storefront-ui/commit/8e3eacdffbda96e3377aaa02d328fdd4704dd7cd))
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) update changelog ([cdc501f](https://github.com/vuestorefront/storefront-ui/commit/cdc501f4e3c252a40fc7379908f2582b4a73cca5))
+* [#1763](https://github.com/vuestorefront/storefront-ui/issues/1763) update yarn.lock & add license to vue ([fba978f](https://github.com/vuestorefront/storefront-ui/commit/fba978fed26caced2a37f8b88373a99992433308))
+* add checkout tests, details, shipping ([82e86e1](https://github.com/vuestorefront/storefront-ui/commit/82e86e12717f58f9fe2e645f4cdbf9447eb0fb32))
+* add e2e tests to CI ([f5f6ce4](https://github.com/vuestorefront/storefront-ui/commit/f5f6ce460d6e5d5fbbdfd18413c262c9eb02b7b4))
+* add login and myaccount pages tests ([895a7a1](https://github.com/vuestorefront/storefront-ui/commit/895a7a1d18e015b2c91dee0da0d029c3c0e254a6))
+* add my account tests ([bba3557](https://github.com/vuestorefront/storefront-ui/commit/bba3557730fb64a46b35f3bd5184828fa6304f71))
+* add payment tests ([3348316](https://github.com/vuestorefront/storefront-ui/commit/33483160a6212f17959469cd93fff9b19e6d0f03))
+* add review tests ([db41c3c](https://github.com/vuestorefront/storefront-ui/commit/db41c3c5857134228496c7dbb3b0d68307291320))
+* add test for home ([c4f8ace](https://github.com/vuestorefront/storefront-ui/commit/c4f8ace968fc31f89367afad03903a72255ab1aa))
+* add test for home ([ef42088](https://github.com/vuestorefront/storefront-ui/commit/ef42088e165c9dde3ab0319362b5cabbd81b68b8))
+* add tests for home ([464ced4](https://github.com/vuestorefront/storefront-ui/commit/464ced49c3ffb7bd09cc049868431b482ff4f39c))
+* add tests for home ([58fbc3d](https://github.com/vuestorefront/storefront-ui/commit/58fbc3daf5d383e314fb999754e49b0166268b53))
+* cypress config and add first test ([4687c03](https://github.com/vuestorefront/storefront-ui/commit/4687c03b142651aae4424bc90f4b6fcd5a646386))
+* cypress config and add first test ([0ddbd2d](https://github.com/vuestorefront/storefront-ui/commit/0ddbd2dedfd10d919a8a68b74ad4ea7c5a9fae74))
+* happy path file name change ([4726d31](https://github.com/vuestorefront/storefront-ui/commit/4726d31087098ffefa95b9fb8a1ded4ca0a6ab8c))
+* myaccount tests fixes ([80c8b1a](https://github.com/vuestorefront/storefront-ui/commit/80c8b1a0a2d6a7d6a0933326ae40c0fe6e94e0fd))
+
+
+
+
+
 ## [0.10.5](https://github.com/vuestorefront/storefront-ui/compare/@storefront-ui/vue@0.10.4...@storefront-ui/vue@0.10.5) (2021-04-19)
 
 
